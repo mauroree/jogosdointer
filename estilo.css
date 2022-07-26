@@ -1,0 +1,120 @@
+body {
+
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+header {
+
+    background-color: rgba(114, 114, 114, 0.281);
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    
+     
+}
+
+header > h1 {
+
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+ a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 18px;
+  
+}
+
+a:hover {
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+section#jogo {
+ 
+    width: 80%;
+    margin: auto;
+    background-color: rgba(114, 114, 114, 0.281);
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 50%;
+    margin-bottom: 15px;
+    
+
+}
+
+section#infos {
+   
+    width: 80%;
+    margin: auto;
+    color: white;
+    background-color: rgba(114, 114, 114, 0.281);
+    border-radius: 10px;
+    margin-bottom: 15px;
+   
+    
+}
+
+h2 {
+    
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h4 {
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+section > iframe {
+  
+    position: absolute;
+    top: 5%; 
+    left: 5%; 
+    width: 90%;
+    height: 90%;
+}
+
+
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    
+    background-color: rgba(114, 114, 114, 0.281);
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer > p {
+    margin: 0px;
+    padding: 10px;
+}
