@@ -20,6 +20,7 @@ header {
      
 }
 
+
 header > h1 {
 
     color: red;
@@ -60,6 +61,27 @@ section#jogo {
 
 }
 
+section#jogo > h2 {
+    
+    color: white;
+    position: absolute;
+    top: 39%; 
+    left: 5%; 
+    width: 90%;
+    height: 90%;
+    
+}
+
+section > iframe {
+  
+    position: absolute;
+    top: 5%; 
+    left: 5%; 
+    width: 90%;
+    height: 90%;
+}
+
+
 section#infos {
    
     width: 80%;
@@ -90,17 +112,6 @@ h4 {
     font-weight: bold;
     padding: 10px;
 }
-
-section > iframe {
-  
-    position: absolute;
-    top: 5%; 
-    left: 5%; 
-    width: 90%;
-    height: 90%;
-}
-
-
 
 footer {
     color: rgb(255, 255, 255);
