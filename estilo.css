@@ -64,6 +64,7 @@ section#jogo {
 section#jogo > h2 {
     
     color: white;
+    font-size: 25px;
     position: absolute;
     top: 39%; 
     left: 5%; 
