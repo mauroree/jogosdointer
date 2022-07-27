@@ -56,10 +56,10 @@ section>iframe {
     border-color: red;
     border-radius: 10px;
     position: absolute;
-    top: 9%;
+    top: 7%;
     left: 5%;
     width: 90%;
-    height: 80%;
+    height: 85%;
 }
 
 section#jogo>h2 {
