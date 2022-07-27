@@ -8,7 +8,7 @@ body {
 header {
 
     background-color: rgba(114, 114, 114, 0.281);
-    width: 65%;
+    width: 70%;
     margin: auto;
     text-align: center;
     border-radius: 10px;
@@ -40,7 +40,7 @@ a:hover {
 
 section#jogo {
 
-    width: 65%;
+    width: 70%;
     margin: auto;
     background-color: rgba(114, 114, 114, 0.281);
     border-radius: 10px;
@@ -67,18 +67,17 @@ section#jogo>h2 {
     text-align: center;
     margin: auto;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     position: absolute;
-    top: 43%;
+    top: 40%;
     left: 2%;
     width: 90%;
-    height: 70%;
 }
 
 section#regressiva {
 
     text-align: center;
-    width: 65%;
+    width: 70%;
     margin: auto;
     color: white;
     background-color: rgba(114, 114, 114, 0.281);
@@ -119,7 +118,7 @@ ul {
 
 section#infos {
 
-    width: 65%;
+    width: 70%;
     margin: auto;
     color: white;
     background-color: rgba(114, 114, 114, 0.281);
@@ -167,7 +166,7 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     margin: auto;
-    width: 65%;
+    width: 70%;
     font: normal 18px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
     padding: 1px;
