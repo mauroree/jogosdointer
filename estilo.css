@@ -3,147 +3,179 @@ body {
     background-color: rgb(26, 26, 26);
     margin: auto;
     padding: 15px;
-    
 }
 
 header {
 
     background-color: rgba(114, 114, 114, 0.281);
+    width: 65%;
+    margin: auto;
     text-align: center;
     border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 70%;
-    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
     margin-bottom: 20px;
-    
-     
 }
 
-
-header > h1 {
+header>h1 {
 
     color: red;
+    font: bold 30px Arial;
     text-align: center;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
 }
 
- a {
-    
+a {
     text-decoration: none;
     color: white;
     padding: 5px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 18px;
-  
+    font: bold 18px Arial;
 }
 
 a:hover {
-    
+
     background-color: red;
     border-radius: 10px;
     padding: 3px;
 }
 
 section#jogo {
-    
-  
-    width: 70%;
+
+    width: 65%;
     margin: auto;
     background-color: rgba(114, 114, 114, 0.281);
     border-radius: 10px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 45%;
     margin-bottom: 15px;
-    
 
 }
 
-section#jogo > h2 {
-    
-    text-align: center;
-    margin: auto;
-    color: white;
-    font-size: 25px;
-    position: absolute;
-    top: 43%; 
-    left: 2%; 
-    width: 90%;
-    height: 90%;
-    
-}
+section>iframe {
 
-section > iframe {
-    
     border-width: 2px;
     border-color: red;
     border-radius: 10px;
     position: absolute;
-    top: 5%; 
-    left: 5%; 
+    top: 9%;
+    left: 5%;
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
 
+section#jogo>h2 {
 
-section#infos {
-   
-    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 43%;
+    left: 2%;
+    width: 90%;
+    height: 70%;
+}
+
+section#regressiva {
+
+    text-align: center;
+    width: 65%;
     margin: auto;
     color: white;
     background-color: rgba(114, 114, 114, 0.281);
     border-radius: 10px;
     margin-bottom: 15px;
-     
 }
 
-section#infos > p {
-    
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin: 0px;   
-}
+section#regressiva>h1 {
 
-h2 {
-    
     text-align: center;
     color: white;
     margin: auto;
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: bold;
+    font: bold 25px Arial;
     padding: 10px;
 }
 
+
+li {
+
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font: bold 20px sans-serif;
+
+}
+
+span {
+
+    color: red;
+    padding: 5px;
+    font: bold 18pt Arial;
+}
+
+ul {
+
+    margin: auto;
+    padding: 5px;
+}
+
+section#infos {
+
+    width: 65%;
+    margin: auto;
+    color: white;
+    background-color: rgba(114, 114, 114, 0.281);
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+section#infos>p {
+
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 0px;
+    text-indent: 30px;
+}
+
+h2 {
+
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin: auto;
+    font: bold 22px sans-serif;
+    padding: 10px;
+}
+
+h3 {
+
+    font: bold 25px sans-serif;
+    margin: 5px;
+}
+
 h4 {
-    
+
     text-align: center;
     color: rgb(253, 253, 253);
     margin: auto;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: bold;
+    font: normal 18px sans-serif;
     padding: 10px;
 }
 
 footer {
+
+    background-color: rgba(114, 114, 114, 0.281);
     color: rgb(255, 255, 255);
     text-align: center;
     margin: auto;
-    width: 70%; 
-    background-color: rgba(114, 114, 114, 0.281);
-    font-size: 18px;
+    width: 65%;
+    font: normal 18px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
     padding: 1px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
-footer > p {
-    
+footer>p {
+
     margin: 0px;
     padding: 10px;
 }

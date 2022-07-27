@@ -8,46 +8,64 @@
     <title>Jogos do Inter</title>
     <link rel="shortcut icon" href="inter.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
-
+    <script src="script.js"></script>
 </head>
 
-<body>
-    <header>
+<main>
 
-        <h1>JOGOS DO INTER</h1>
+    <body onload="regressiva()">
+        <header>
 
-        <nav>
+            <h1>JOGOS DO INTER</h1>
 
-            <a href="https://ge.globo.com/futebol/brasileirao-serie-a/" target="_blank">Tebela Brasileirão</a>
-            <a href="https://ge.globo.com/rs/futebol/times/internacional/" target="_blank">GE Inter</a>
-            <a href="https://internacional.com.br/partidas" target="_blank">Próximos Jogos</a>
-            <a href="https://discord.gg/DjcqMKnnQ8" target="_blank">Discord</a>
+            <nav>
 
-        </nav>
+                <a href="https://ge.globo.com/futebol/brasileirao-serie-a/" target="_blank">Tebela Brasileirão</a>
+                <a href="https://ge.globo.com/rs/futebol/times/internacional/" target="_blank">GE Inter</a>
+                <a href="https://internacional.com.br/partidas" target="_blank">Próximos Jogos</a>
+                <a href="https://discord.gg/DjcqMKnnQ8" target="_blank">Discord</a>
 
-    </header>
-    <main>
-     
+            </nav>
+
+        </header>
+
         <section id="jogo">
-            
+
             <h2>Player carregando, por favor aguarde!</h2>
 
-         <iframe src="https://sinalpublico.com/player3/ch.php?canal=premiere2" frameborder=0  scrolling=no allowFullScreen> </iframe> 
+            <iframe src="https://sinalpublico.com/player3/ch.php?canal=premiere2" frameborder=0 scrolling=no allowFullScreen> </iframe>
         
         </section>
-        
+
+        <section id="regressiva">
+            <h2>Próxima Partida</h2>
+            <h3>Internacional vs Atlético Mineiro</h3>
+            <ul>
+                <li><span id="days"></span>Dias</li>
+                <li><span id="hours"></span>Horas</li>
+                <li><span id="minutes"></span>Minutos</li>
+                <li><span id="seconds"></span>Segundos</li>
+            </ul>
+            </div>
+        </section>
         <section id="infos">
+
+            <h2>Prováveis Times</h2>
             
-            <h2>Provável Inter</h2>
-            <h4>Daniel; Renê, Vitão, Mercado e F. Bustos; Gabriel, Edenilson e De Pena; Pedro Henrique, Alemão e Wanderson.</h4>
+            <h4><strong>Inter:</strong> Daniel; Renê, Vitão, Mercado e F. Bustos; Gabriel, Edenilson e De Pena; Pedro Henrique e Wanderson; Alemão.</h4>
+            
+            <h4><strong>Galo:</strong> Everson; Mariano, Igor Rabello, Junior Alonso e Guilherme Arana; Allan e Jair (Otávio); Zaracho, Nacho e Keno; Hulk. </h4>
+            
+            <h2>Informações</h2>
+            
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quibusdam libero in dicta voluptatibus minus vero quis impedit, iste, quos veritatis aut consequuntur accusamus mollitia, quidem architecto quia delectus natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur magnam ducimus quia et quae repellendus a, autem culpa illum porro. Soluta dolorum corporis veritatis voluptates, deserunt earum? Adipisci, architecto quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea id ipsum, quas tempore ducimus tenetur culpa eveniet expedita? Unde facere corrupti tenetur dolore molestiae ratione assumenda eveniet numquam molestias.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut velit delectus, sunt placeat ipsa iusto minus, voluptas repudiandae molestias tenetur exercitationem, facere quibusdam sequi excepturi fugit incidunt ea nesciunt optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, consequuntur facilis architecto eveniet fuga excepturi sed a ipsa dolore repudiandae autem harum earum ut alias cum soluta distinctio, et quaerat.</p>
 
         </section>
         <footer>
-
             <p>Não hospedamos o jogo em nossos servidores, apenas o indexamos.</p>
-
         </footer>
-    </main>
+</main>
 </body>
 
 </html>
