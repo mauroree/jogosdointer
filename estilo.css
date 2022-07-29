@@ -1,45 +1,56 @@
-body {
+@charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --fonte1: 'Roboto Condensed', sans-serif;
+}
+
+body {
     background-color: rgb(26, 26, 26);
     margin: auto;
     padding: 15px;
 }
 
 header {
-
     background-color: rgba(114, 114, 114, 0.281);
     width: 70%;
     margin: auto;
     text-align: center;
     border-radius: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 20px;
+    
 }
 
 header>h1 {
-
-    color: red;
+    color: rgb(165, 164, 164);
     font: bold 30px Arial;
     text-align: center;
+    margin: 0px;
+    padding: 10px;
+
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(196, 194, 194);
     padding: 5px;
     font: bold 18px Arial;
 }
 
-a:hover {
+nav {
+    padding: 3px;
+}
 
+a:hover {
     background-color: red;
     border-radius: 10px;
     padding: 3px;
 }
 
 section#jogo {
-
     width: 70%;
     margin: auto;
     background-color: rgba(114, 114, 114, 0.281);
@@ -51,9 +62,8 @@ section#jogo {
 }
 
 section>iframe {
-
     border-width: 2px;
-    border-color: red;
+    border-color: rgba(218, 22, 22, 0.842);
     border-radius: 10px;
     position: absolute;
     top: 7%;
@@ -63,7 +73,6 @@ section>iframe {
 }
 
 section#jogo>h2 {
-
     text-align: center;
     margin: auto;
     color: white;
@@ -75,7 +84,6 @@ section#jogo>h2 {
 }
 
 section#regressiva {
-
     text-align: center;
     width: 70%;
     margin: auto;
@@ -86,7 +94,6 @@ section#regressiva {
 }
 
 section#regressiva>h1 {
-
     text-align: center;
     color: white;
     margin: auto;
@@ -96,7 +103,6 @@ section#regressiva>h1 {
 
 
 li {
-
     color: rgb(255, 255, 255);
     display: inline-block;
     font: bold 20px sans-serif;
@@ -104,20 +110,15 @@ li {
 }
 
 span {
-
     color: red;
     padding: 5px;
     font: bold 18pt Arial;
 }
 
-ul {
-
-    margin: auto;
-    padding: 5px;
+img{
+    width: 80px;
 }
-
 section#infos {
-
     width: 70%;
     margin: auto;
     color: white;
@@ -128,7 +129,6 @@ section#infos {
 }
 
 section#infos>p {
-
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
@@ -137,22 +137,19 @@ section#infos>p {
 }
 
 h2 {
-
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgb(165, 164, 164);
     margin: auto;
-    font: bold 22px sans-serif;
+    font: bold 25px sans-serif;
     padding: 10px;
 }
 
 h3 {
-
     font: bold 25px sans-serif;
     margin: 5px;
 }
 
 h4 {
-
     text-align: center;
     color: rgb(253, 253, 253);
     margin: auto;
@@ -161,7 +158,6 @@ h4 {
 }
 
 footer {
-
     background-color: rgba(114, 114, 114, 0.281);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -174,7 +170,6 @@ footer {
 }
 
 footer>p {
-
     margin: 0px;
     padding: 10px;
 }
