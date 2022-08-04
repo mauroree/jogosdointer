@@ -89,6 +89,7 @@ section#regressiva {
     margin: auto;
     color: white;
     background-color: rgba(114, 114, 114, 0.281);
+    padding-bottom: 1px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
