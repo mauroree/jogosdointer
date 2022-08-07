@@ -3,7 +3,7 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 
-let count_down = new Date('08/04/2022 19:15:00').getTime();
+let count_down = new Date('08/07/2022 18:00:00').getTime();
 let x = setInterval(() => countDown(), second);
 
 function countDown() {
