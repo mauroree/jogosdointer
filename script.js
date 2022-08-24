@@ -19,6 +19,6 @@ function countDown() {
 
 function resetCountdown() {
   clearInterval(x);
-  count_down = new Date('08/13/2022 19:04:00').getTime();
+  count_down = new Date('08/29/2022 19:04:00').getTime();
   x = setInterval(() => countDown(), second);
 }
