@@ -17,3 +17,8 @@ function countDown() {
   document.getElementById('seconds').innerText = Math.floor(diff % minute / second);
 }
 
+function resetCountdown() {
+  clearInterval(x);
+  count_down = new Date('09/09/2022 20:00:00').getTime();
+  x = setInterval(() => countDown(), second);
+}
