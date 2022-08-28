@@ -14,7 +14,7 @@ function countDown() {
   document.getElementById('days').innerText = Math.floor(diff / day);
   document.getElementById('hours').innerText = Math.floor(diff % day / hour);
   document.getElementById('minutes').innerText = Math.floor(diff % hour / minute);
-  document.getElementById('seconds').innerText = Math.floor(diff % minute / second);
+  document.getElementById('second').innerText = Math.floor(diff % minute / second);
 }
 
 function resetCountdown() {
