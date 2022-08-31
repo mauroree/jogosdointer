@@ -21,7 +21,7 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 20px;
-    
+
 }
 
 header>h1 {
@@ -116,9 +116,10 @@ span {
     font: bold 18pt Arial;
 }
 
-img{
+img {
     width: 80px;
 }
+
 section#infos {
     width: 80vw;
     margin: auto;
