@@ -11,7 +11,7 @@ function countDown() {
   let now = new Date(Date.now()).getTime();
   let diferenca = count_down - now;
 
-  if (diferenca < 0) { //se for <0 zera a contagem
+  if (diferenca < 0) { //se for < 0 zera a contagem
 
     document.getElementById('dias').innerText = 0;
     document.getElementById('horas').innerText = 0;
