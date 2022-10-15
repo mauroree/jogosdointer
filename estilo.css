@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: rgba(114, 114, 114, 0.281);
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     text-align: center;
     border-radius: 10px;
@@ -51,12 +51,14 @@ a:hover {
 }
 
 section#jogo {
-    width: 80vw;
+    width: 70vw;
     margin: auto;
-    background-color: rgba(114, 114, 114, 0.281);
+    background-image: url(imagens/field.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     position: relative;
-    padding-bottom: 45%;
+    padding-bottom: 35%;
     margin-bottom: 15px;
 
 }
@@ -66,10 +68,10 @@ section>iframe {
     border-color: white;
     border-radius: 10px;
     position: absolute;
-    top: 12%;
-    left: 10%;
-    width: 80%;
-    height: 75%;
+    top: 4%;
+    left: 12%;
+    width: 75%;
+    height: 90%;
 }
 
 section#jogo>h2 {
@@ -85,32 +87,37 @@ section#jogo>h2 {
 
 section#regressiva {
     text-align: center;
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     color: white;
-    background-color: rgba(114, 114, 114, 0.281);
+    background-image: url(imagens/estadio-beira-rio.png);
+    background-position: top left;
+    background-size: cover;
     padding-bottom: 1px;
     border-radius: 10px;
     margin-bottom: 15px;
+
 }
 
-section#regressiva>h1 {
-    text-align: center;
-    color: white;
-    margin: auto;
-    font: bold 25px Arial;
-    padding: 10px;
-}
+div#contagem {
 
+    background-color: rgba(0, 0, 0, 0.295);
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    border-radius: 5px;
+    width: 600px;
+}
 
 li {
     color: rgb(255, 255, 255);
     display: inline-block;
     font: bold 20px sans-serif;
-
 }
 
 span {
+
     color: red;
     padding: 5px;
     font: bold 18pt Arial;
@@ -121,7 +128,7 @@ img {
 }
 
 section#infos {
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     color: white;
     background-color: rgba(114, 114, 114, 0.281);
@@ -136,7 +143,7 @@ section#infos>p {
     padding: 15px;
     margin: 0px;
     text-align: center;
-    
+
 }
 
 h2 {
@@ -161,11 +168,11 @@ h4 {
 }
 
 footer {
-    background-color: rgba(114, 114, 114, 0.281);
+    background-color: rgba(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
     margin: auto;
-    width: 80vw;
+    width: 70vw;
     font: normal 18px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
     padding: 1px;
