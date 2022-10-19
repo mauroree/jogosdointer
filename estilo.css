@@ -6,10 +6,17 @@
     --fonte1: 'Roboto Condensed', sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
 body {
     background-color: rgb(26, 26, 26);
     margin: auto;
     padding: 15px;
+
 }
 
 header {
