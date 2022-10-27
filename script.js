@@ -3,7 +3,7 @@ const min = seg * 60;
 const hora = min * 60;
 const dia = hora * 24;
 
-let count_down = new Date('10/16/2022 18:00:00').getTime();
+let count_down = new Date('11/02/2022 16:00:00').getTime();
 let x = setInterval(() => countDown(), seg);
 
 function countDown() {
